@@ -26,5 +26,5 @@ docker-compose up
 
 http://localhost:8000/admin  
 http://localhost:8000/api/advert-list/  
-http://localhost:8000/api/advert/<int:pk>/
+http://localhost:8000/api/advert/\<int:pk\>/
 
