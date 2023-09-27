@@ -25,6 +25,6 @@ docker-compose up
 ### URL
 
 http://localhost:8000/admin  
-http://localhost:8000/api/advert-list/
+http://localhost:8000/api/advert-list/  
 http://localhost:8000/api/advert/<int:pk>/
 
