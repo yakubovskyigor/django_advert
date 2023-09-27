@@ -1,0 +1,24 @@
+@hostname = localhost
+@port = 8000
+@host = {{hostname}}:{{port}}
+@contentType = application/json
+
+###
+
+GET http://{{host}}/admin
+
+###
+
+GET http://{{host}}/api/advert-list/
+
+###
+
+GET http://{{host}}/api/advert/1/
+
+###
+
+GET http://{{host}}/api/advert/2/
+
+###
+
+GET http://{{host}}/api/advert/3/
